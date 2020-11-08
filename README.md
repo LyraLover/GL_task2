@@ -29,3 +29,4 @@
 		- XSD
 
 WBS is available [here](/wbs.md)
+UML is available [here](/uml.svg)
