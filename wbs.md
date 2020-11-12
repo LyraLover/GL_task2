@@ -21,7 +21,6 @@ QT with Widget, XML and SyntaxHighlighter modules
 	- QTextEdit::document()
 2. Undo/redo changes of the buffer
 	- QTextDocument::undo(), QTextDocument::redo()
-3. If last operation undone/redone was syntax highlight, undo/redo once more
 
 ## Opening and saving files, creating new ones
 ### New file
@@ -33,7 +32,7 @@ QT with Widget, XML and SyntaxHighlighter modules
 1. If there is no filename specified, prompt the filename otherwise. The action may be cancelled at this point
 	- QFileDialog
 2. Write buffer contents to the specified file
-	- QFile::
+	- QFile
 
 ### Save as
 1. Ask for a filename. The action may be cancelled at this point
