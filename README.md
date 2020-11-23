@@ -2,7 +2,6 @@
 ## Features
 `^(key)` means `ctrl+(key)`
 - Text editing (~2-3 hours)
-	- Delete line with ^L
 	- Undo/redo
 		- Undo: ^Z
 		- Redo: ^(Shift)Z
@@ -16,15 +15,15 @@
 - Search and replace with regex (~2 hours)
 	- Shortcuts
 		- Find: ^F
-		- Replace: ^R
+		- Replace: ^F (same dialog as find)
 - Visual features (~2 hours)
-	- Buffer statistics
+	- Buffer statistics (not implemented)
 		- Number of symbols, words, lines
-	- Togglable line numbers
+	- Togglable line numbers (^B)
 - Working with XML: (~10 hours)
-	- Fold contents of XML nodes
-	- Syntax highlighting
-	- XML validation
+	- Fold contents of XML nodes (^/, not implemented)
+	- Syntax highlighting (togglable from menu)
+	- XML validation (from menu)
 		- Well-formed
 		- XSD
 
