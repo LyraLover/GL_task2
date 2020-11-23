@@ -30,3 +30,6 @@
 WBS is available [here](/wbs.md)
 
 UML is available [here](/uml.svg)
+
+## Building
+Makefile is not available, but building is possible with QT Creator. XML validation requires an additional module: `xmlpatterns`
